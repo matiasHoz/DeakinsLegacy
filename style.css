@@ -1,0 +1,38 @@
+.body {
+	background-color: #1A1A1A;
+}
+
+.title {
+	color: #E1A87A;
+	font-family: 'Bebas Neue';
+	font-size: 35px;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 220px 220px 220px;
+	justify-content: space-between;
+	width: 50%;
+	font-size: 25px;
+	padding-top: 7px;
+	list-style: none;
+}
+
+.menu li {
+	color: #E1A87A;
+}
+
+.orden {
+	display: grid;
+	grid-template-areas: "title menu";
+	grid-template-columns
+}
+
+.portadas {
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+	height: 600px;
+	border-style: solid;
+	border-color: #E1A87A;
+}
