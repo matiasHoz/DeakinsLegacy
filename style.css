@@ -6,10 +6,15 @@
 	background-color: #2C3440;
 }
 
+
 .title {
-	color: #F6D46D;
-	font-family: 'Bebas Neue';
-	font-size: 48px;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 65px;
+	text-shadow: 2px 2px 2px #000000;
+	padding-top: 5px;
+	margin: 4px;
+	cursor: pointer;
 }
 
 .menu {
@@ -23,7 +28,22 @@
 }
 
 .menu li {
+	padding-top: 16px;
+}
+
+.menu li a{
 	color: #F6D46D;
+	font-size: 25px;
+	padding-top: 25px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 2px 2px 2px #000000;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.menu li a:hover {
+	font-size: 30px;
 }
 
 .orden {
@@ -35,15 +55,65 @@
 }
 
 .inicio {
-	font-family: 'Bebas Neue';
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
-	padding-top: 400px;
-	font-size: 30px;
+	padding-top: 350px;
+	font-size: 26px;
+	text-shadow: 2px 2px 2px #000000;
 }
 
 .container {
 	display: flex;
 	justify-content: center;
 	color: black;
+	font-family: 'Raleway', sans-serif;
+	cursor: pointer;
+}
+
+.carousel {
+	padding-top: 40px;
+}
+
+.fotos {
+	height: 510px;
+	width: 1100px;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: white;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.movies {
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+	justify-content: space-between;
+	padding: 70px;
+}
+
+.portada {
+	width: 200px;
+	height: 300px;
+	border-style: solid;
+	border-color: #F6D46D;
+}
+
+.final {
+	list-style: none;
+	margin-top:20px;
+	width: 100%;
+	background-color: black;
+	bottom: 0px;
+	border-top-style: solid;
+	border-top-color: #F6D46D;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.final li {
+	color: white;
 }

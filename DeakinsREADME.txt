@@ -34,3 +34,11 @@ Hasta aquí llega nuestro repaso por la vida y la obra de Roger Deakins, uno de 
 https://imvdb.com/n/roger-deakins
 
 https://www.imdb.com/name/nm0005683/?ref_=nv_sr_srsg_0
+
+https://www.espinof.com/otros/decepcionante-deprimente-roger-deakins-carga-forma-que-hollywood-rueda-sus-superproducciones
+
+'Ubuntu', sans-serif
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
