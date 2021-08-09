@@ -1,11 +1,15 @@
-.body {
-	background-color: #1A1A1A;
+.body1 {
+	background-image: url(https://i.blogs.es/bef598/roger/1366_2000.jpeg);
+}
+
+.body2 {
+	background-color: #2C3440;
 }
 
 .title {
-	color: #E1A87A;
+	color: #F6D46D;
 	font-family: 'Bebas Neue';
-	font-size: 35px;
+	font-size: 48px;
 }
 
 .menu {
@@ -19,20 +23,27 @@
 }
 
 .menu li {
-	color: #E1A87A;
+	color: #F6D46D;
 }
 
 .orden {
 	display: grid;
 	grid-template-areas: "title menu";
-	grid-template-columns
+	border-style: solid;
+	border-bottom-color: #F6D46D;
+	background-color: rgba(0,0,0,0.5);
 }
 
-.portadas {
+.inicio {
+	font-family: 'Bebas Neue';
+	color: white;
+	text-align: center;
+	padding-top: 400px;
+	font-size: 30px;
+}
+
+.container {
 	display: flex;
 	justify-content: center;
-	width: 1200px;
-	height: 600px;
-	border-style: solid;
-	border-color: #E1A87A;
+	color: black;
 }
