@@ -42,3 +42,10 @@ https://www.espinof.com/otros/decepcionante-deprimente-roger-deakins-carga-forma
 <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+
+https://regardis.com/como-hacer-una-linea-del-tiempo-con-html-y-css/
+
+TV: 
+Cena entre amigos 
+The House
+Wolcott
