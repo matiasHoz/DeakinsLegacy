@@ -17,6 +17,10 @@
 	cursor: pointer;
 }
 
+.title:hover {
+	color: #F6D46D;
+}
+
 .menu {
 	display: grid;
 	grid-template-columns: 220px 220px 220px;
@@ -28,7 +32,7 @@
 }
 
 .menu li {
-	padding-top: 16px;
+	padding-top: 22px;
 }
 
 .menu li a{
@@ -43,7 +47,7 @@
 }
 
 .menu li a:hover {
-	font-size: 30px;
+	color: white;
 }
 
 .orden {
@@ -62,7 +66,6 @@
 	font-size: 26px;
 	text-shadow: 2px 2px 2px #000000;
 }
-
 
 
 .container {
@@ -92,11 +95,29 @@
 	justify-content: center;
 }
 
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
 .subtitulo {
 	color: #F6D46D;
 	margin: 30px;
 	font-family: 'Raleway', sans-serif;
-	text-decoration:;
+	text-shadow: 2px 2px 2px #000000;
+	letter-spacing: .075em;
+	border-bottom: 1px solid white;
+	border-bottom-width: 50px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.subtitulo1 {
+	color: #F6D46D;
+	margin: 20px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration:none;
 	text-shadow: 2px 2px 2px #000000;
 	letter-spacing: .075em;
 	border-bottom: 1px solid white;
@@ -142,6 +163,51 @@
     opacity: 0.5;  
 }
 
+.portadainicio {
+	width: 300px;
+	height: 400px;
+	border-style: solid;
+	border-color: white;
+	box-shadow: 4px 4px 4px black;
+	margin: 20px;
+}
+
+.ficha {
+	text-align: center;
+	margin-top: 20px;
+	height: 405px;
+	box-shadow: 4px 4px 4px black;
+	background-color: black;
+}
+
+.ficha h1 {
+	font-size: 60px;
+	text-shadow: 2px 2px 2px #000000;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 40px;
+    color: white;
+}
+
+.ficha p {
+	font-size: 22px;
+	text-shadow: 2px 2px 2px #000000;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+
+.cuerpo {
+	display: grid;
+	grid-template-columns: 560px 600px;
+	border-style: solid;
+	border-color: #F6D46D;
+	background-color: black;
+	padding: 20px;
+}
+
+.videos {
+	margin: 30px;
+}
 
 .final {
 	list-style: none;
@@ -242,6 +308,47 @@
 	box-shadow: 4px 4px 4px black;
 }
 
+.biography {
+	width: 1349px;
+	height: 700px;
+	border-style: solid;
+	border-bottom-color: #F6D46D;
+	box-shadow: 4px 4px 4px black;
+}
+
+.titulo1{
+	font-size: 300px;
+	font-family: 'Bebas Neue', cursive;
+	position: absolute;
+	color: white;
+	letter-spacing: .115em;
+	padding-top: 300px;
+	padding-left: 160px;
+}
+
+.titulo2 {
+	font-size: 300px;
+	font-family: 'Bebas Neue', cursive;
+	position: absolute;
+	color: white;
+	letter-spacing: .115em;
+	padding-top: 300px;
+	padding-left: 680px;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.titulo3 {
+	font-size: 300px;
+	font-family: 'Bebas Neue', cursive;
+	position: absolute;
+	color: white;
+	letter-spacing: .115em;
+	padding-top: 300px;
+	padding-left: 540px;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+
 .bio {
 	display: grid;
 	grid-template-areas: "texto imagen"
@@ -275,5 +382,50 @@
 	padding-right: 20px;
 	width: 480px;
 	height: 380px;
+}
+
+.videos {
+	border-style: solid;
+	border-color: #F6D46D;
+	width: 550px;
+	height: 350px;
+	margin: 33px;
+	box-shadow: 4px 4px 4px black;
+}
+
+.backset {
+	margin: 10px;
+}
+
+.grabacion {
+	border-style: solid;
+	border-color: #F6D46D;
+}
+
+.carousel-item1{
+	width: 544px;
+	height: 344px;
+}
+
+.orden2 {
+	display: grid;
+	grid-template-columns: 500px 500px;
+	grid-gap: 190px;
+}
+
+.orden3 {
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	justify-content: center;
+}
+
+.storyline {
+	border-style: solid;
+	border-color: #F6D46D;
+	box-shadow: 4px 4px 4px black;
+}
+
+.storyline p {
+	font-size: 25px
 }
 
