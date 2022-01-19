@@ -2,6 +2,7 @@
 <html lang="EN">
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <link href="ihover-gh-pages/src/ihover.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,21 +12,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-	<title>The Deakins Gift</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+	<title>The Book of Roger</title>
 </head>
 <body class="body1">
 <header class="orden">
+  
 <!-- Abro encabezado ---------------------->
+<!-- Titulo -->
+<h1 id="title">The Book of Roger</h1>
 
-<h1 class="title">The Deakins Gift</h1>
-
+<!-- Menu -->
 <nav>
 	<ul class="menu">
-		<li><a href="biography.html">Biography</a></li>
-		<li><a href="tech.html">Technical</a></li>
-		<li><a href="awards.html">Awards</a></li>
+		<a data-scroll href="indexPrincipal.html"><li id="bio"></li></a>
+		<a href="1917.html"><li id="nominations"></li></a>
+		<a href="techniques.html"><li id="techniques"></li></a>
 	</ul>
 </nav>
+
+<!-- Logo -->
+<div class="row">
+  <div class="col-sm-6">
+   
+    <!-- colored -->
+    <div class="ih-item circle colored effect16 left_to_right"><a href="index.html">
+        <div class="img"><img src="img/opcion2.png" alt="img" class="theBookLogo"></div>
+        <div class="info">
+          <h3 id="fontmenu">Menu</h3>
+        </div></a></div>
+    <!-- end colored -->
+  
+  </div>
+  </div>
+  <!-- end Left to right -->
 
 </header>
 <!-- Cierro encabezado -------------------->
@@ -34,13 +59,13 @@
 
 <section class="inicio">
 <h1>Roger Deakins</h1>
-<p>All the works of one of the most important geniuses of photography in cinema.</p>
+<p>A little tribute for one of the most important geniuses of photography in cinema.</p>
 </section>
 
 <!-- Boton de inicio ---------------------->
 
 <div class="container">
-  <a href="indexPrincipal.html"><button class="btn btn-warning">Get started</button>
+  <a href="indexPrincipal.html"><button class="btn btn-warning">Get started</button></a>
 </div>
 
 
@@ -50,6 +75,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>

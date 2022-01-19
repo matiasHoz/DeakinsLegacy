@@ -7,62 +7,155 @@
 }
 
 
-.title {
+#title {
 	color: white;
 	font-family: 'Bebas Neue', cursive;
-	font-size: 65px;
+	font-size: 80px;
 	text-shadow: 2px 2px 2px #000000;
-	padding-top: 5px;
+	padding-top: 15px;
 	margin: 4px;
+	margin-left: 20px;
+	transition-property: color;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+
+#title:hover {
+	color: #F6D46D;
 	cursor: pointer;
 }
 
-.title:hover {
-	color: #F6D46D;
+#fontmenu {
+	font-family: 'Lobster', cursive;
 }
 
 .menu {
 	display: grid;
-	grid-template-columns: 220px 220px 220px;
-	justify-content: space-between;
-	width: 50%;
-	font-size: 25px;
-	padding-top: 7px;
+	grid-template-columns: 130px 130px 130px;
+	grid-gap: 50px;
 	list-style: none;
-}
-
-.menu li {
-	padding-top: 22px;
-}
-
-.menu li a{
-	color: #F6D46D;
-	font-size: 25px;
-	padding-top: 25px;
-	font-family: 'Raleway', sans-serif;
-	text-shadow: 2px 2px 2px #000000;
 	text-decoration: none;
-	cursor: pointer;
-	margin: 10px;
+	color: #F6D46D;
+	margin-top: 50px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 27px;
+	text-shadow: 2px 2px 2px black;
 }
 
-.menu li a:hover {
+.menu li:hover {
 	color: white;
+	cursor: pointer;
+}
+
+#bio::before {
+	content: "Chapter One";
+	position: absolute;
+	transform: translate(-5%, -5%);
+	transition: .4s ease;
+	color: #F6D46D;
+}
+
+#bio:after {
+	content: "Biography";
+	position: absolute;
+	transform: translate(-5%, -5%) scale(0);
+	transition: .4s ease;
+	opacity: 0;
+	color: white;
+}
+
+#bio:hover::before {
+	transform: translate(-5%, -5%) scale(2);
+	opacity: 0;
+}
+
+#bio:hover::after {
+	transform: translate(-5%, -5%) scale(1);
+	opacity: 1;
+}
+
+#nominations:before {
+	content: "Chapter Two";
+	position: absolute;
+	transform: translate(-5%, -5%);
+	transition: .4s ease;
+	color: #F6D46D;
+}
+
+#nominations:after {
+	content: "Nominations";
+	position: absolute;
+	transform: translate(-5%, -5%) scale(0);
+	transition: .4s ease;
+	opacity: 0;
+	color: white;
+}
+
+#nominations:hover::before {
+	transform: translate(-5%, -5%) scale(2);
+	opacity: 0;
+}
+
+#nominations:hover::after {
+	transform: translate(-5%, -5%) scale(1);
+	opacity: 1;
+}
+
+#techniques:before {
+	content: "Chapter Three";
+	position: absolute;
+	transform: translate(-5%, -5%);
+	transition: .4s ease;
+	color: #F6D46D;
+}
+
+#techniques:after {
+	content: "Techniques";
+	position: absolute;
+	transform: translate(-5%, -5%) scale(0);
+	transition: .4s ease;
+	opacity: 0;
+	color: white;
+}
+
+#techniques:hover::before {
+	transform: translate(-5%, -5%) scale(2);
+	opacity: 0;
+}
+
+#techniques:hover::after {
+	transform: translate(-5%, -5%) scale(1);
+	opacity: 1;
+}
+
+.theBookLogo {
+	height: 80px;
+	width: 80px;
+	-webkit-filter: drop-shadow(2px 1px 0 black)
+	                drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(2px 1px 0 black)
+            drop-shadow(-1px -1px 0 black);
+	overflow: hidden;
+}
+
+.theBookLogo:hover {
+	cursor: pointer;
 }
 
 .orden {
 	display: grid;
-	grid-template-areas: "title menu";
+	grid-template-areas: "title menu theBookLogo";
 	border-style: solid;
 	border-bottom-color: #F6D46D;
 	background-color: rgba(0,0,0,0.5);
+	background-size: auto;
 }
 
 .inicio {
 	font-family: 'Raleway', sans-serif;
 	color: white;
 	text-align: center;
-	padding-top: 350px;
+	padding-top: 310px;
 	font-size: 26px;
 	text-shadow: 2px 2px 2px #000000;
 }
@@ -427,5 +520,92 @@
 
 .storyline p {
 	font-size: 25px
+}
+
+ /* Biography ----------------------------------*/
+
+ .body2 {
+	background-image: url(https://cdn.pixabay.com/photo/2016/09/10/13/34/vintage-1659117_960_720.jpg);
+	background-position-x: center;
+	background-size: 1630px;
+}
+
+.ordenado {
+	display: grid;
+	grid-template-areas: "title menu theBookLogo";
+	border-style: solid;
+	border-bottom-color: #F6D46D;
+	background-color: rgba(0,0,0,0.785);
+	background-size: auto;
+}
+
+#intro {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+
+
+.face {
+	margin: 20px;
+	margin-left: 50px;
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-radius: 50px;
+	border-color: black;
+	box-shadow: 2px 2px 2px black;
+	overflow: hidden;
+	opacity: 0.8;
+	transition: all .3s ease-in-out;
+}
+
+.face:hover {
+	cursor: pointer;
+	opacity: 1.8;
+}
+
+
+#hola {
+	font-size: 35px;
+	margin: 20px;
+	color: black;
+	margin-top: 50px;
+	text-shadow: 1px 1px 1px black;
+	font-family:  'Lobster', cursive;
+	opacity: 0.8;
+}
+
+#hola:hover {
+	opacity: 1.8;
+	cursor: pointer;
+}
+
+
+#paginas {
+	display: grid;
+	grid-template-columns: 100px 100px;
+	grid-gap: 630px;
+}
+
+
+.texto {
+	margin: 15px;
+	margin-left: 60px;
+	width: 500px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+
+.texto2 {
+	margin: 15px;
+	width: 500px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
 }
 
