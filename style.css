@@ -35,9 +35,18 @@ body {
   transition-timing-function: ease-in-out;
 }
 
+.holis {
+  text-decoration: none;
+}
+
+.holis:hover {
+  text-decoration: none;
+}
+
 .title:hover {
   color: #f6d46d;
   cursor: pointer;
+  text-decoration: none;
 }
 
 #fontmenu {
@@ -1159,4 +1168,60 @@ a > span {
   height: 270px;
   text-align: center;
   top: 80px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 915px) {
+  .orden {
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+  }
+
+  .menu a {
+    font-size: 1.4rem;
+    white-space: nowrap;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  .row {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 80%;
+    left: 35%;
+  }
+
+  .menu {
+    display: flex;
+    grid-gap: 7.5rem;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .body1 {
+    background-color: black;
+    width: 100%;
+    background-size: contain;
+    background-position-y: 35%;
+  }
+
+  .inicio h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .inicio p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7rem;
+  }
 }
