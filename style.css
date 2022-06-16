@@ -1194,7 +1194,7 @@ a > span {
     display: flex;
     position: absolute;
     justify-content: center;
-    top: 80%;
+    top: 100%;
     left: 35%;
   }
 
