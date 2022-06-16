@@ -1190,13 +1190,14 @@ a > span {
     white-space: nowrap;
   }
 
-  .row {
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    top: 95%;
-    text-align: center;
-    left: 35%;
+  .row,
+  .ih-item,
+  .circle,
+  .colored,
+  .effect16,
+  .left_to_right,
+  .theBookLogo {
+    display: none;
   }
 
   .menu {
@@ -1213,6 +1214,7 @@ a > span {
     width: 100%;
     background-size: contain;
     background-position-y: 35%;
+    overflow: hidden;
   }
 
   .inicio h1 {
