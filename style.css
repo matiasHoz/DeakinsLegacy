@@ -1284,7 +1284,21 @@ a > span {
   }
 
   #paginas img {
-    display: none;
+    position: absolute;
+  }
+
+  .margin {
+    width: 60%;
+    height: 20vh;
+    top: 230%;
+    text-align: center;
+    left: 4%;
+  }
+
+  .oli {
+    width: 60%;
+    height: 20vh;
+    left: 15%;
   }
 
   .footer {
@@ -1292,6 +1306,11 @@ a > span {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+  }
+
+  .footer li {
+    display: flex;
+    justify-content: center;
   }
 
   .next,
