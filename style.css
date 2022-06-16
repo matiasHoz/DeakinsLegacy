@@ -1203,7 +1203,8 @@ a > span {
     grid-gap: 7.5rem;
     position: relative;
     bottom: 2rem;
-    justify-content: center;
+    left: auto;
+    right: auto;
   }
 
   .body1 {
