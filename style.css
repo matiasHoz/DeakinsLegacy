@@ -1318,4 +1318,23 @@ a > span {
   .before {
     display: none;
   }
+
+  #tit2 {
+    font-size: 2rem;
+  }
+
+  .camera {
+    width: 35%;
+    height: 5rem;
+    margin-top: 3.5rem;
+  }
+
+  #superOrder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .movie {
+    height: 25vh;
+  }
 }
