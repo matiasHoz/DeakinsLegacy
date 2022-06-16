@@ -1267,7 +1267,7 @@ a > span {
 
   .texto2 {
     position: relative;
-    bottom: 35rem;
+    bottom: 20rem;
     display: flex;
     justify-content: center;
     width: 90vw;
@@ -1290,7 +1290,7 @@ a > span {
   .margin {
     width: 60%;
     height: 20vh;
-    top: 230%;
+    top: 130%;
     text-align: center;
     left: 4%;
   }
