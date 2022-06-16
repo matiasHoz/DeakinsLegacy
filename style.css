@@ -1288,17 +1288,17 @@ a > span {
   }
 
   .margin {
-    width: 60%;
-    height: 20vh;
+    width: 80%;
+    height: 25vh;
     top: 158%;
     text-align: center;
-    left: 5%;
+    right: 7%;
   }
 
   .oli {
-    width: 60%;
-    height: 20vh;
-    left: 16%;
+    width: 80%;
+    height: 25vh;
+    left: 6%;
   }
 
   .footer {
