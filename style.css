@@ -1337,4 +1337,36 @@ a > span {
   .movie {
     height: 25vh;
   }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    width: 50%;
+    position: relative;
+    right: 1.7rem;
+  }
+
+  .oscar {
+    right: 3rem;
+    bottom: 12.5rem;
+  }
+
+  .resultado {
+    white-space: nowrap;
+    overflow: hidden;
+    right: 5rem;
+    bottom: 12rem;
+  }
+
+  .trailer {
+    position: relative;
+    right: 32rem;
+  }
+
+  .carousel-item,
+  .carousel-inner {
+    width: 12rem;
+    height: 7rem;
+    display: none;
+  }
 }
